@@ -1,0 +1,30 @@
+Dec 05 07:58:26 my-personallab2 systemd[1]: Starting The Apache HTTP Server...
+Dec 05 07:58:26 my-personallab2 httpd[131171]: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::215:5dff:fe83:2d02%eth0. Set the 'ServerName' directive globally to suppress this message
+Dec 05 07:58:26 my-personallab2 httpd[131171]: Server configured, listening on: port 80
+Dec 05 07:58:26 my-personallab2 systemd[1]: Started The Apache HTTP Server.
+Dec 05 11:13:07 my-personallab2 systemd[1]: Stopping The Apache HTTP Server...
+Dec 05 11:13:08 my-personallab2 systemd[1]: httpd.service: Deactivated successfully.
+Dec 05 11:13:08 my-personallab2 systemd[1]: Stopped The Apache HTTP Server.
+Dec 05 11:13:08 my-personallab2 systemd[1]: httpd.service: Consumed 14.493s CPU time.
+Dec 05 11:13:08 my-personallab2 systemd[1]: Starting The Apache HTTP Server...
+Dec 05 11:13:08 my-personallab2 httpd[133256]: AH00526: Syntax error on line 44 of /etc/httpd/conf.d/ssl.conf:
+Dec 05 11:13:08 my-personallab2 httpd[133256]: SSLCertificateKeyFile: file '/etc/ssl/private/localhost.key' does not exist or is empty
+Dec 05 11:13:08 my-personallab2 systemd[1]: httpd.service: Main process exited, code=exited, status=1/FAILURE
+Dec 05 11:13:08 my-personallab2 systemd[1]: httpd.service: Failed with result 'exit-code'.
+Dec 05 11:13:08 my-personallab2 systemd[1]: Failed to start The Apache HTTP Server.
+Dec 05 11:15:11 my-personallab2 systemd[1]: Starting The Apache HTTP Server...
+Dec 05 11:15:11 my-personallab2 httpd[133274]: AH00526: Syntax error on line 44 of /etc/httpd/conf.d/ssl.conf:
+Dec 05 11:15:11 my-personallab2 httpd[133274]: SSLCertificateKeyFile: file '/etc/ssl/private/localhost.key' does not exist or is empty
+Dec 05 11:15:11 my-personallab2 systemd[1]: httpd.service: Main process exited, code=exited, status=1/FAILURE
+Dec 05 11:15:11 my-personallab2 systemd[1]: httpd.service: Failed with result 'exit-code'.
+Dec 05 11:15:11 my-personallab2 systemd[1]: Failed to start The Apache HTTP Server.
+Dec 05 11:17:16 my-personallab2 systemd[1]: Starting The Apache HTTP Server...
+Dec 05 11:17:17 my-personallab2 httpd[133287]: AH00526: Syntax error on line 47 of /etc/httpd/conf.d/ssl.conf:
+Dec 05 11:17:17 my-personallab2 httpd[133287]: Listen cannot occur within <VirtualHost> section
+Dec 05 11:17:17 my-personallab2 systemd[1]: httpd.service: Main process exited, code=exited, status=1/FAILURE
+Dec 05 11:17:17 my-personallab2 systemd[1]: httpd.service: Failed with result 'exit-code'.
+Dec 05 11:17:17 my-personallab2 systemd[1]: Failed to start The Apache HTTP Server.
+Checking for httpd errors:
+Dec 05 11:13:08 my-personallab2 httpd[133256]: AH00526: Syntax error on line 44 of /etc/httpd/conf.d/ssl.conf:
+Dec 05 11:15:11 my-personallab2 httpd[133274]: AH00526: Syntax error on line 44 of /etc/httpd/conf.d/ssl.conf:
+Dec 05 11:17:17 my-personallab2 httpd[133287]: AH00526: Syntax error on line 47 of /etc/httpd/conf.d/ssl.conf:
