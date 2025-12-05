@@ -1,0 +1,16 @@
+# Add to setup_nginx.yml:
+---
+- name: Setup Nginx Web Server
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Install Nginx
+      dnf:
+        name: nginx
+        state: present
+
+    - name: Start and enable Nginx service
+      service:
+        name: nginx
+        state: started
+        enabled: yes
