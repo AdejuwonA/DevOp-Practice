@@ -1,0 +1,14 @@
+Log Management and Analysis with `journalctl` and Log Rotation
+
+to manage and analyze system logs using `journalctl' and configure log rotation to prevent disk space issues.
+
+1.	Explore System Logs with `journalctl`:
+	Use `journalctl` to view recent system logs and filter logs for the `nginx` service.
+	Check logs for the last hour and save them to `/home/devops_practice/day4/nginx_logs.txt`. 
+	Identify any errors or warnings related to `nginx` or `firewalld`.
+2.	Configure Log Rotation:
+	Install `logrotate`
+	Create a custom logrotate configuration file for Nginx logs (`/var/log/nginx/*.log`) to rotate daily, keep 5 days of logs, and compress old logs.
+	Test the log rotation configuration in dry-run mode.
+3.	Version Control the Configuration: Push to github.
+

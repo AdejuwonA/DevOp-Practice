@@ -1,0 +1,21 @@
+Dec 05 21:14:49 my-personallab2 systemd[1]: Starting The nginx HTTP and reverse proxy server...
+Dec 05 21:14:49 my-personallab2 nginx[138150]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+Dec 05 21:14:49 my-personallab2 nginx[138150]: nginx: configuration file /etc/nginx/nginx.conf test is successful
+Dec 05 21:14:49 my-personallab2 nginx[138151]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Dec 05 21:14:49 my-personallab2 nginx[138151]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Dec 05 21:14:50 my-personallab2 nginx[138151]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Dec 05 21:14:50 my-personallab2 nginx[138151]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Dec 05 21:14:50 my-personallab2 nginx[138151]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Dec 05 21:14:50 my-personallab2 nginx[138151]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Dec 05 21:14:51 my-personallab2 nginx[138151]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Dec 05 21:14:51 my-personallab2 nginx[138151]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Dec 05 21:14:51 my-personallab2 nginx[138151]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Dec 05 21:14:51 my-personallab2 nginx[138151]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Dec 05 21:14:52 my-personallab2 nginx[138151]: nginx: [emerg] still could not bind()
+Dec 05 21:14:52 my-personallab2 systemd[1]: nginx.service: Control process exited, code=exited, status=1/FAILURE
+Dec 05 21:14:52 my-personallab2 systemd[1]: nginx.service: Failed with result 'exit-code'.
+Dec 05 21:14:52 my-personallab2 systemd[1]: Failed to start The nginx HTTP and reverse proxy server.
+Dec 05 21:18:00 my-personallab2 systemd[1]: Starting The nginx HTTP and reverse proxy server...
+Dec 05 21:18:00 my-personallab2 nginx[138220]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+Dec 05 21:18:00 my-personallab2 nginx[138220]: nginx: configuration file /etc/nginx/nginx.conf test is successful
+Dec 05 21:18:00 my-personallab2 systemd[1]: Started The nginx HTTP and reverse proxy server.
