@@ -1,0 +1,10 @@
+Linux 5.14.0-570.26.1.el9_6.x86_64 (my-personallab2) 	06/12/2025 	_x86_64_	(4 CPU)
+
+00:11:21     LINUX RESTART	(4 CPU)
+=== SAR Report Sat 06 Dec 2025 00:24:18 WAT ===
+Linux 5.14.0-570.26.1.el9_6.x86_64 (my-personallab2) 	06/12/2025 	_x86_64_	(4 CPU)
+
+00:11:21     LINUX RESTART	(4 CPU)
+Linux 5.14.0-570.26.1.el9_6.x86_64 (my-personallab2) 	06/12/2025 	_x86_64_	(4 CPU)
+
+00:11:21     LINUX RESTART	(4 CPU)
